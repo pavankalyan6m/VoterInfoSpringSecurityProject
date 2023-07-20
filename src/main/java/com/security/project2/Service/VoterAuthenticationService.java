@@ -31,8 +31,6 @@ public class VoterAuthenticationService {
                 .build();
         var savedUser = voterRepository.save(user);
         var jwtToken = voterJwtservice.generateToken(user);
-        //var refreshToken = voterJwtService.generateRefreshToken(user);
-        //saveUserToken(savedUser, jwtToken);
         return VoterAuthenticationResponse.builder()
                 .token(jwtToken)
                 .build();
