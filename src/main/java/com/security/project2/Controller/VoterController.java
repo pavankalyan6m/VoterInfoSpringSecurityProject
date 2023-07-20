@@ -1,6 +1,7 @@
 package com.security.project2.Controller;
 
 import com.security.project2.Entity.Voter;
+import com.security.project2.Service.VoterAuthenticationService;
 import com.security.project2.Service.VoterService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.RequestBody;

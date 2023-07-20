@@ -1,6 +1,9 @@
-package com.security.project2.Controller;
+package com.security.project2.Service;
 
 import com.security.project2.Configuration.VoterJwtService;
+import com.security.project2.Controller.VoterAuthenticationRequest;
+import com.security.project2.Controller.VoterAuthenticationResponse;
+import com.security.project2.Controller.VoterRegisterRequest;
 import com.security.project2.Repository.VoterRepository;
 import com.security.project2.Entity.Role;
 import com.security.project2.Entity.Voter;
